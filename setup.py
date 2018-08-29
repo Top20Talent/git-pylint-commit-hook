@@ -16,7 +16,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'pylint',
+        'pylint<2.0',
         'future'
     ],
     classifiers=[
